@@ -57,9 +57,10 @@ until_iterator(7)
 
  # code your solution here using the "for" keyword
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
-  
+
 def for_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+  for item in number_of_times 
 end
 
+for_iterator(1..7)
